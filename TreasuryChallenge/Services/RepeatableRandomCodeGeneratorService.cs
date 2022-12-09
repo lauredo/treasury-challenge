@@ -11,7 +11,7 @@ namespace TreasuryChallenge.Services
 
             for (var i = 0; i < linesCount; i++)
             {
-                LogWriter.LogConsole($"{i} codes have already been generated!");
+                LogWriter.LogConsole($"{i+1} codes have already been generated!");
                 lines.Add(GetCode(lineLength));
             }
             
